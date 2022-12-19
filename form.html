@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_form.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <div class="contenair">
+        <main>
+            <!--Sign up form-->
+            <div class="form signUp-form">
+                <h2>Créer votre Compte</h2>
+                <form>
+                    <label for="user_name">Votre Nom : </label>
+                    <input type="text" id="user_name">
+
+                    <label for="mail">Votre Mail : </label>
+                    <input type="text" id="mail">
+
+                    <label for="password">Mot de passe : </label>
+                    <input type="text" id="password">
+
+                    <button type="submit">S'inscrire</button>
+
+                </form>
+            </div>
+
+            <!-- Sign in form-->
+            <div class="form signIn-form">
+                <h2>Connexion</h2>
+                <form>
+                    <label for="user_name">Votre Mail : </label>
+                    <input type="text" id="user_name">
+
+                    <label for="password">Mot de passe : </label>
+                    <input type="text" id="password">
+
+                    <button type="submit">Connecter</button>
+                </form>
+            </div>
+        </main>
+
+        <aside>
+
+            <!-- Sign in block in aside-->
+            <div class="sign-in-block">
+                <h2>Already a User</h2>
+
+                <button type="submit" id="sign-in-btn"> Sign IN</button>
+            </div>
+
+            <!-- Sign up block in aside-->
+            <div class="sign-up-block">
+                <h2>New User</h2>
+
+                <button type="submit" id="sign-up-btn"> Sign up</button>
+            </div>
+        </aside>
+    </div>
+</body>
+<script src="JSform.js"></script>
+</html>
